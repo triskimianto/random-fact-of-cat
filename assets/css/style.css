@@ -1,0 +1,72 @@
+html, body{
+    font-family: 'Handlee', cursive;
+    height: 100vh;
+    margin: 0;
+}
+
+.bg{
+    background-image: url('../images/wp11850474-cats-collage-wallpapers.jpg');    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.content{
+    background-color: white;
+    width:90%;
+    margin: auto;
+    padding: 8px;
+}
+
+#factValue{
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hr{
+    border-top: 1px solid #d8d8d8;
+    margin: 8px 0;
+}
+
+.text-right{
+    text-align: right;
+    margin: 0;
+}
+
+.text-right small{
+    color: #969696;
+}
+
+@media only screen and (min-width: 425px){
+    #factValue{        
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .content{
+        width: 50%;
+        padding: 16px;
+    }
+    .hr{        
+        margin: 16px 0;
+    }
+    #factValue{        
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #factValue{        
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    #factValue{        
+        font-size: 32px;
+    }
+}
